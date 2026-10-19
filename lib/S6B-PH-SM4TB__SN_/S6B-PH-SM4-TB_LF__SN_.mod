@@ -1,0 +1,78 @@
+PCBNEW-LibModule-V1  2026-10-19 17:47:55
+# encoding utf-8
+Units mm
+$INDEX
+S6B-PH-SM4-TB(LF)(SN)_3
+$EndINDEX
+$MODULE S6B-PH-SM4-TB(LF)(SN)_3
+Po 0 0 0 15 6ad649bb 00000000 ~~
+Li S6B-PH-SM4-TB(LF)(SN)_3
+Cd S6B-PH-SM4-TB(LF)(SN)_3
+Kw Connector
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.415 -5.499 1.27 1.27 0 0.254 N V 21 N "J**"
+T1 -0.415 -5.499 1.27 1.27 0 0.254 N I 21 N "S6B-PH-SM4-TB(LF)(SN)_3"
+DS -8 0.25 8 0.25 0.2 24
+DS 8 0.25 8 -7.35 0.2 24
+DS 8 -7.35 -8 -7.35 0.2 24
+DS -8 -7.35 -8 0.25 0.2 24
+DS -8 0.25 -8 -3.55 0.2 21
+DS 8 0.25 8 -3.55 0.2 21
+DS 8 0.25 5.858 0.25 0.2 21
+DS -8 0.25 -5.803 0.25 0.2 21
+DS 0 -7.35 -6.275 -7.35 0.2 21
+DS 0 -7.35 6.212 -7.35 0.2 21
+DC 8.671 1.778 8.43381 1.778 0.254 21
+$PAD
+Po 5 0
+Sh "1" R 1 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3 0
+Sh "2" R 1 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1 0
+Sh "3" R 1 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1 0
+Sh "4" R 1 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3 0
+Sh "5" R 1 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -5 0
+Sh "6" R 1 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -7.4 -5.7
+Sh "7" R 1.6 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 7.4 -5.7
+Sh "8" R 1.6 3.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE S6B-PH-SM4-TB(LF)(SN)_3
+$EndLIBRARY

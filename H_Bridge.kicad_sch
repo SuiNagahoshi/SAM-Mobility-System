@@ -5083,7 +5083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HTSOP-J8_footprint_symbol:HTSOP-J8"
+		(property "Footprint" "HTSOP-J8:HTSOP-J8"
 			(at 73.66 152.07 0)
 			(hide yes)
 			(show_name no)
@@ -5233,193 +5233,6 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
-		(at 208.28 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5670bb16-d377-4e16-ada1-6bfbfc55a568")
-		(property "Reference" "IC3"
-			(at 223.52 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BD64950EFJ-E2"
-			(at 223.52 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HTSOP-J8_footprint_symbol:HTSOP-J8"
-			(at 234.95 152.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
-			(at 234.95 252.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
-			(at 208.28 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 234.95 452.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 234.95 552.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
-			(at 234.95 652.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 234.95 752.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 234.95 852.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 234.95 952.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 234.95 1052.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "7"
-			(uuid "cdc36248-111a-476e-9c5c-db96c4ef9bf8")
-		)
-		(pin "3"
-			(uuid "8c267c4f-bf5a-4e9d-9f8b-5d02e842ba64")
-		)
-		(pin "5"
-			(uuid "14ec61f2-7e0a-4288-bb57-5e917bb88256")
-		)
-		(pin "6"
-			(uuid "1814307b-737b-46bb-bde1-3aabfbed08e3")
-		)
-		(pin "9"
-			(uuid "7a2ec2cf-4a81-4ea1-810a-f4dbc2817485")
-		)
-		(pin "2"
-			(uuid "ae217808-dcaa-4ad9-bff7-c63f32daa165")
-		)
-		(pin "8"
-			(uuid "996fbb7d-6e04-4633-88b2-c6f26255fe14")
-		)
-		(pin "1"
-			(uuid "6a7f3f6a-5f60-43c0-9eef-3e6d643b522d")
-		)
-		(pin "4"
-			(uuid "c4f68860-579b-47fe-8e98-79be48146631")
-		)
-		(instances
-			(project "rover-mobility-system"
-				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
-					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -5660,6 +5473,193 @@
 		)
 	)
 	(symbol
+		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
+		(at 208.28 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61cc763c-b51a-4e01-9351-d8693d08f077")
+		(property "Reference" "IC3"
+			(at 223.52 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BD64950EFJ-E2"
+			(at 223.52 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HTSOP-J8:HTSOP-J8"
+			(at 234.95 152.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
+			(at 234.95 252.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
+			(at 208.28 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 234.95 452.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 234.95 552.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
+			(at 234.95 652.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 234.95 752.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 234.95 852.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 234.95 952.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 234.95 1052.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "7"
+			(uuid "08b5ea5b-3a18-441e-8283-25c92244ac82")
+		)
+		(pin "3"
+			(uuid "6a37d8a4-c87c-4410-a87d-c4ab7d39e63c")
+		)
+		(pin "5"
+			(uuid "ca593efe-bb27-43cd-95f6-4ef32354501a")
+		)
+		(pin "6"
+			(uuid "f9300aca-052c-443d-afd0-36475fd10bce")
+		)
+		(pin "9"
+			(uuid "c541e1ce-f606-4e81-a6e1-60ec5be66e20")
+		)
+		(pin "2"
+			(uuid "1b7142a7-9aba-456d-bcc3-66ef5eedc32d")
+		)
+		(pin "8"
+			(uuid "555b83f5-491e-44ea-974a-afdac29d4d44")
+		)
+		(pin "1"
+			(uuid "76c4c89e-7bbe-4989-887d-0be0a74c76ca")
+		)
+		(pin "4"
+			(uuid "57ffbbba-fa52-43fc-a147-a4b1585bd757")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 261.62 137.16 0)
 		(unit 1)
@@ -5732,193 +5732,6 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
-		(at 127 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63d654b2-8a14-49c6-924e-00e4a4de3577")
-		(property "Reference" "IC2"
-			(at 142.24 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BD64950EFJ-E2"
-			(at 142.24 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HTSOP-J8_footprint_symbol:HTSOP-J8"
-			(at 153.67 152.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
-			(at 153.67 252.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
-			(at 127 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 153.67 452.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 153.67 552.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
-			(at 153.67 652.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 153.67 752.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 153.67 852.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 153.67 952.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 153.67 1052.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "7"
-			(uuid "1d5942f5-bad8-4c39-bf65-2a3b8b2ac7d8")
-		)
-		(pin "3"
-			(uuid "cc152864-d92a-44c9-9e2a-f0ec4d5d071f")
-		)
-		(pin "5"
-			(uuid "332d0164-3a52-4d16-8f06-f04116342b6a")
-		)
-		(pin "6"
-			(uuid "0b7ec87d-454d-4cd5-bb47-8de674f4108a")
-		)
-		(pin "9"
-			(uuid "f0c83cb8-e42f-4e37-912b-340cef14b691")
-		)
-		(pin "2"
-			(uuid "dace0d2b-bd5b-470e-a4ee-2203451b07de")
-		)
-		(pin "8"
-			(uuid "05f8e637-6004-461c-9f0d-03019703fe86")
-		)
-		(pin "1"
-			(uuid "3108de33-9b05-462a-896d-6c266fba66f8")
-		)
-		(pin "4"
-			(uuid "a1c1749c-d8a7-4870-8a4b-28c9e752c899")
-		)
-		(instances
-			(project "rover-mobility-system"
-				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
-					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -6034,193 +5847,6 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
-		(at 46.99 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "672c8152-3b78-4bb9-b592-0822b1081598")
-		(property "Reference" "IC4"
-			(at 62.23 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BD64950EFJ-E2"
-			(at 62.23 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HTSOP-J8_footprint_symbol:HTSOP-J8"
-			(at 73.66 206.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
-			(at 73.66 306.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
-			(at 46.99 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 73.66 506.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 73.66 606.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
-			(at 73.66 706.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 73.66 806.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 73.66 906.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 73.66 1006.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 73.66 1106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "7"
-			(uuid "e41fad41-f54d-453a-a546-f62fb00b8cf5")
-		)
-		(pin "3"
-			(uuid "d124bb2f-f79c-4eb3-bf81-c77e81e07478")
-		)
-		(pin "5"
-			(uuid "643dd709-4024-4f6d-bea4-a68e1e9e62af")
-		)
-		(pin "6"
-			(uuid "04be044c-a92c-4883-ad26-75ca3443b31d")
-		)
-		(pin "9"
-			(uuid "31c94cae-d568-4682-8a35-8d73ce7fa6f5")
-		)
-		(pin "2"
-			(uuid "45be45fc-a60c-4e51-8443-9fa230da8bc0")
-		)
-		(pin "8"
-			(uuid "e8419716-34a7-410b-9c22-ce8a95ff26cb")
-		)
-		(pin "1"
-			(uuid "75a063a2-e5f9-4857-b5c2-dface0a6d878")
-		)
-		(pin "4"
-			(uuid "f81af04f-740a-4587-8198-0816393d3b38")
-		)
-		(instances
-			(project "rover-mobility-system"
-				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
-					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -6533,120 +6159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 165.1 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a191565-fe1e-4db2-af32-68b050bcd308")
-		(property "Reference" "C9"
-			(at 161.29 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 161.29 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 166.0652 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 165.1 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "CCTC TCC0603X7R104M500CTS"
-			(at 165.1 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "EC" "LCSC"
-			(at 165.1 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PartNumber" "C880612"
-			(at 165.1 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b55962a-a9ad-40f5-bd1d-edab52099123")
-		)
-		(pin "1"
-			(uuid "7ac9fedd-afaa-40b2-9318-6aabadabe883")
-		)
-		(instances
-			(project "rover-mobility-system"
-				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
 		(at 208.28 111.76 0)
 		(unit 1)
@@ -6657,7 +6169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b2256fe-fb48-4ae1-87c4-e20c5608f752")
+		(uuid "84007dd4-9e19-45c0-9302-257bd1911fcb")
 		(property "Reference" "IC6"
 			(at 223.52 104.14 0)
 			(show_name no)
@@ -6678,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HTSOP-J8_footprint_symbol:HTSOP-J8"
+		(property "Footprint" "HTSOP-J8:HTSOP-J8"
 			(at 234.95 206.68 0)
 			(hide yes)
 			(show_name no)
@@ -6798,36 +6310,150 @@
 			)
 		)
 		(pin "7"
-			(uuid "80733fd0-79de-4217-abe9-2a57e1b5b770")
+			(uuid "fe35016e-8197-4d0d-a018-fb1aa5fc251a")
 		)
 		(pin "3"
-			(uuid "80e2a86a-79d3-4645-b7bc-4bcb4e1e9836")
+			(uuid "6537938d-026b-49fa-8a1f-19ea1093df71")
 		)
 		(pin "5"
-			(uuid "6ce9aa36-0697-42c1-a4fe-5dbb741fdc49")
+			(uuid "648331e0-225b-40b2-8d5b-a1c166ebf8c4")
 		)
 		(pin "6"
-			(uuid "12dd8b37-2eb1-4117-8c3f-e6362455b2b1")
+			(uuid "4132a776-0002-4daf-9936-c08125b66959")
 		)
 		(pin "9"
-			(uuid "6b94cefc-bd14-466c-ae30-c65ac6267540")
+			(uuid "3c3b55ed-cd68-426d-99fc-ca0b50cdab75")
 		)
 		(pin "2"
-			(uuid "26c414f6-092e-4fce-ad02-df1efbcea023")
+			(uuid "e249bc6d-2f16-43c6-b25d-4306e3ed8d05")
 		)
 		(pin "8"
-			(uuid "4222ef42-39ec-4839-bf23-b128f6837746")
+			(uuid "78bc8928-38ee-437d-a967-e8fe28d8a0ce")
 		)
 		(pin "1"
-			(uuid "ea17b4b8-b52b-4719-95f9-62866673ef2e")
+			(uuid "cc773955-4e80-406f-b37f-b8e004bcd343")
 		)
 		(pin "4"
-			(uuid "2575c423-aefa-4ee1-b11d-5180e66fabfb")
+			(uuid "13db579b-20c9-4d1a-af0b-9792c8828826")
 		)
 		(instances
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8a191565-fe1e-4db2-af32-68b050bcd308")
+		(property "Reference" "C9"
+			(at 161.29 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 161.29 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 166.0652 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CCTC TCC0603X7R104M500CTS"
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "EC" "LCSC"
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PartNumber" "C880612"
+			(at 165.1 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b55962a-a9ad-40f5-bd1d-edab52099123")
+		)
+		(pin "1"
+			(uuid "7ac9fedd-afaa-40b2-9318-6aabadabe883")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7021,193 +6647,6 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
-		(at 127 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95b6a111-c1bd-4b17-8a24-88046e1cbda4")
-		(property "Reference" "IC5"
-			(at 142.24 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BD64950EFJ-E2"
-			(at 142.24 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "HTSOP-J8_footprint_symbol:HTSOP-J8"
-			(at 153.67 206.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
-			(at 153.67 306.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
-			(at 127 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 153.67 506.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 153.67 606.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
-			(at 153.67 706.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 153.67 806.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 153.67 906.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 153.67 1006.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 153.67 1106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "7"
-			(uuid "d080a4f9-075c-4ebe-822e-6f10624b7c9b")
-		)
-		(pin "3"
-			(uuid "6f963f42-53c4-482e-a48e-b818510bbef7")
-		)
-		(pin "5"
-			(uuid "337f1ed5-8074-4403-b1cf-dd43dc666db7")
-		)
-		(pin "6"
-			(uuid "398b0658-95ee-4f94-8563-6f393cd27056")
-		)
-		(pin "9"
-			(uuid "b48a4a50-ddf1-4b06-9279-85ddf8bb9f57")
-		)
-		(pin "2"
-			(uuid "87e732cf-7450-4c01-8eaa-c3faa97829db")
-		)
-		(pin "8"
-			(uuid "b12fb5f3-36fe-427d-9814-c4c1318d2fa1")
-		)
-		(pin "1"
-			(uuid "aee211c3-1177-4661-97d6-c6ce5c0a5040")
-		)
-		(pin "4"
-			(uuid "5dbf2349-bb37-41c1-a890-9418259156b2")
-		)
-		(instances
-			(project "rover-mobility-system"
-				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
-					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -7714,6 +7153,193 @@
 		)
 	)
 	(symbol
+		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
+		(at 127 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba7119ad-84de-4062-b968-dde1ed42d960")
+		(property "Reference" "IC2"
+			(at 142.24 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BD64950EFJ-E2"
+			(at 142.24 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HTSOP-J8:HTSOP-J8"
+			(at 153.67 152.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
+			(at 153.67 252.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
+			(at 127 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 153.67 452.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 153.67 552.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
+			(at 153.67 652.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.67 752.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 153.67 852.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 153.67 952.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 153.67 1052.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "7"
+			(uuid "123a4a2d-82ec-4536-ac6a-a6baeea3be37")
+		)
+		(pin "3"
+			(uuid "ef61ec60-83ce-4801-a255-bd2a7675f9cd")
+		)
+		(pin "5"
+			(uuid "53b8482c-b4e5-4604-aeb6-ea6598bef271")
+		)
+		(pin "6"
+			(uuid "e60c9267-ce6e-4476-9a8d-f1bde49ca868")
+		)
+		(pin "9"
+			(uuid "4d497bd3-76bc-428c-b054-d8cdda24dd7e")
+		)
+		(pin "2"
+			(uuid "67fd7c6b-5213-4b73-a520-26a2b2c3c8ee")
+		)
+		(pin "8"
+			(uuid "31c10968-3450-4b92-ad9d-e98b2003f48c")
+		)
+		(pin "1"
+			(uuid "0de08553-7bec-4fb6-91db-ecc9d206d31c")
+		)
+		(pin "4"
+			(uuid "1313d454-82a4-41f5-93b7-01d0bbc55a1b")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 33.02 166.37 0)
 		(unit 1)
@@ -7786,6 +7412,193 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
+		(at 127 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be7995fe-164b-47d0-8c9b-0801d7206ccc")
+		(property "Reference" "IC5"
+			(at 142.24 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BD64950EFJ-E2"
+			(at 142.24 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HTSOP-J8:HTSOP-J8"
+			(at 153.67 206.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
+			(at 153.67 306.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 153.67 506.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 153.67 606.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
+			(at 153.67 706.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.67 806.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 153.67 906.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 153.67 1006.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 153.67 1106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "7"
+			(uuid "59da549d-c267-46b5-8c52-81da7c363981")
+		)
+		(pin "3"
+			(uuid "ffbf8a47-0296-4d5d-9fc5-3a5bf6192aef")
+		)
+		(pin "5"
+			(uuid "fdb51961-fdcf-4f3e-ad6b-9e4e6da81a31")
+		)
+		(pin "6"
+			(uuid "badc7d13-009b-4e45-b9bd-d75ce63fd2d6")
+		)
+		(pin "9"
+			(uuid "36bac999-55a8-4699-b6b8-4a1dd3113af5")
+		)
+		(pin "2"
+			(uuid "c2262077-a582-49ee-a0df-7ba81aca8093")
+		)
+		(pin "8"
+			(uuid "79512a3e-92c0-4ea9-ac08-8e82529a61fe")
+		)
+		(pin "1"
+			(uuid "6a0e7e04-4133-4d82-a499-db5d959a3f69")
+		)
+		(pin "4"
+			(uuid "e1a31634-5c0f-47b3-a189-bd529ef2d8f5")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -8254,6 +8067,193 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BD64950EFJ-E2:BD64950EFJ-E2")
+		(at 46.99 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb41e5c9-8255-4d64-b295-d9ce9d325cac")
+		(property "Reference" "IC4"
+			(at 62.23 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BD64950EFJ-E2"
+			(at 62.23 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HTSOP-J8:HTSOP-J8"
+			(at 73.66 206.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd64950efj-e.pdf"
+			(at 73.66 306.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 40V Withstand Voltage 3.5A (Peak 6A) DC Brush Motor Driver with Current Limit"
+			(at 46.99 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 73.66 506.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 73.66 606.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BD64950EFJ-E2"
+			(at 73.66 706.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 806.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 906.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 73.66 1006.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 73.66 1106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "7"
+			(uuid "ccfeb0d4-cbdb-4e8c-b1cb-f9e0e12f6e31")
+		)
+		(pin "3"
+			(uuid "a3e2f383-1d1b-4c9e-908a-ba45847d8302")
+		)
+		(pin "5"
+			(uuid "e39d448b-e873-4d92-9788-a94fdaeb4194")
+		)
+		(pin "6"
+			(uuid "4853cfab-9933-429b-a3cf-9d6247c7c822")
+		)
+		(pin "9"
+			(uuid "95f55b2c-8154-4f45-95e0-caff625e9f2a")
+		)
+		(pin "2"
+			(uuid "b779a48d-6697-4876-85a2-91467e98612d")
+		)
+		(pin "8"
+			(uuid "959b2578-337a-4c24-85a1-65da2a9eca98")
+		)
+		(pin "1"
+			(uuid "ddc54ecc-6839-4cda-9f87-62c5a83a9813")
+		)
+		(pin "4"
+			(uuid "ee415266-7434-436c-87ce-14b9739e5f9d")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce/25cecece-076a-42f4-8574-b58ecc3d47c5"
+					(reference "IC4")
 					(unit 1)
 				)
 			)

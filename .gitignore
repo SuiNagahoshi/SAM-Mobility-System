@@ -1,0 +1,8 @@
+*-backups/
+fp-*
+~*
+gerber/
+*bak
+*_prl
+*-table
+.zip
