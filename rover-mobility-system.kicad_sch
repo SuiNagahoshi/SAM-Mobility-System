@@ -1107,9 +1107,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Encoder VCC"
+		(exclude_from_sim no)
+		(at 234.95 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04394a1f-baaf-4159-a4a7-0c3e91f1bd74")
+	)
+	(text "Motor +"
+		(exclude_from_sim no)
+		(at 148.59 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "068c854e-631d-4485-bdec-713d1e35445a")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 77.47 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09abd23f-71bf-46cf-8c64-229db922f0b1")
+	)
 	(text "Encoder GND"
 		(exclude_from_sim no)
-		(at 63.5 148.082 90)
+		(at 36.83 154.432 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1117,9 +1147,69 @@
 		)
 		(uuid "0c11ee7b-a258-4bd8-9439-1455f07985ae")
 	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 194.564 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f3d83de-e666-4988-9c9a-361079490c07")
+	)
+	(text "Motor +"
+		(exclude_from_sim no)
+		(at 186.69 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2432637f-930e-43c7-84e2-06419a0a145d")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 191.77 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b0aedcb-dbdc-4dc2-9612-9b5363ea70a4")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 115.57 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4fbae855-48f4-4979-adc4-919638b6ec57")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 153.67 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53ea5581-0064-414e-8f51-8b3db23eab9a")
+	)
+	(text "Encoder GND"
+		(exclude_from_sim no)
+		(at 113.03 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a51bf3c-9719-4e95-bacd-6dcc56c2f733")
+	)
 	(text "Encoder VCC"
 		(exclude_from_sim no)
-		(at 71.12 148.082 90)
+		(at 44.45 154.432 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1127,9 +1217,119 @@
 		)
 		(uuid "6138748a-030a-416a-abe4-313b29fbccca")
 	)
+	(text "Motor +"
+		(exclude_from_sim no)
+		(at 224.79 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7007e82a-a311-4c8d-a516-b1a4fdf4c4d9")
+	)
+	(text "Encoder GND"
+		(exclude_from_sim no)
+		(at 189.23 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7249e161-0f4f-4be0-955f-d41cf5b1e021")
+	)
+	(text "Encoder GND"
+		(exclude_from_sim no)
+		(at 74.93 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "77ecffc7-196d-4c6e-9219-d6a7f3a46e56")
+	)
+	(text "Encoder GND"
+		(exclude_from_sim no)
+		(at 151.13 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b5f1437-5991-4308-8d61-249a44620cdf")
+	)
+	(text "Encoder VCC"
+		(exclude_from_sim no)
+		(at 82.55 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7fcb08b7-1308-47f7-9ae2-671289b5df1d")
+	)
+	(text "Encoder VCC"
+		(exclude_from_sim no)
+		(at 196.85 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "863d1dd5-73a1-4163-b74d-45c1af9df972")
+	)
+	(text "Motor +"
+		(exclude_from_sim no)
+		(at 72.39 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f3ec179-ac64-4578-b39a-2a06a1d74ce6")
+	)
+	(text "Phase B"
+		(exclude_from_sim no)
+		(at 229.87 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "97210dbc-94e6-42db-aa26-e760430c4958")
+	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 118.364 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "974d888d-28e2-4924-a64b-7d97cbfcd433")
+	)
+	(text "Encoder VCC"
+		(exclude_from_sim no)
+		(at 158.75 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a15372cd-93fb-4eb5-9897-6639b94f0a1c")
+	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 232.664 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b077b270-7e49-4d20-9fba-c1a54188cf0f")
+	)
 	(text "Motor -"
 		(exclude_from_sim no)
-		(at 73.66 145.796 90)
+		(at 46.99 152.146 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,7 +1339,7 @@
 	)
 	(text "Phase B"
 		(exclude_from_sim no)
-		(at 66.04 146.05 90)
+		(at 39.37 152.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1147,9 +1347,19 @@
 		)
 		(uuid "b5b45a1c-f646-47a4-8905-ca96ceb2116f")
 	)
+	(text "Motor -"
+		(exclude_from_sim no)
+		(at 123.19 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7741e9e-712a-437b-9e32-c5952b99ff2c")
+	)
 	(text "Phase A"
 		(exclude_from_sim no)
-		(at 68.834 146.05 90)
+		(at 42.164 152.4 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1157,9 +1367,19 @@
 		)
 		(uuid "bdc60b52-2347-44ab-8b36-0caafbd4f1b0")
 	)
+	(text "Encoder VCC"
+		(exclude_from_sim no)
+		(at 120.65 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c306e5c5-8331-415b-8627-e708865e674d")
+	)
 	(text "Motor +"
 		(exclude_from_sim no)
-		(at 60.96 145.796 90)
+		(at 34.29 152.146 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1167,9 +1387,279 @@
 		)
 		(uuid "c60c66da-0657-44e1-9ae4-53054304611f")
 	)
+	(text "Motor -"
+		(exclude_from_sim no)
+		(at 85.09 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c76f00b7-23fe-4f7e-8ffa-4b0ec0e01754")
+	)
+	(text "Encoder GND"
+		(exclude_from_sim no)
+		(at 227.33 154.432 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d324e1cb-cc6b-4ad8-85d1-408bc241ecb3")
+	)
+	(text "Motor -"
+		(exclude_from_sim no)
+		(at 161.29 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e05c2b36-219f-4a5d-bf21-49c022c5661c")
+	)
+	(text "Motor -"
+		(exclude_from_sim no)
+		(at 199.39 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e79c25a7-9b27-466c-8eb3-954c5a0c60a9")
+	)
+	(text "Motor -"
+		(exclude_from_sim no)
+		(at 237.49 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8dccc91-6124-406d-adb3-d5bd9c8eae4a")
+	)
+	(text "Motor +"
+		(exclude_from_sim no)
+		(at 110.49 152.146 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed9e4435-f404-483b-b229-c167d2a9dab7")
+	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 80.264 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4252ceb-a803-4013-b006-a05952c2d71f")
+	)
+	(text "Phase A"
+		(exclude_from_sim no)
+		(at 156.464 152.4 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd282e1c-841c-4d91-a713-0d9173f561db")
+	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 63.5 128.27)
+			(xy 77.47 111.76) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "072825bb-957b-4625-9f64-3c5cff0e7a29")
+	)
+	(wire
+		(pts
+			(xy 74.93 132.08) (xy 74.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d3bb6b-ded5-4ece-9282-73ddf636091f")
+	)
+	(wire
+		(pts
+			(xy 229.87 111.76) (xy 229.87 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b7044cc-d05f-4c1b-94e8-b79b437833f1")
+	)
+	(wire
+		(pts
+			(xy 113.03 132.08) (xy 113.03 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b4135b-db38-46d8-80e1-26b78d210f4c")
+	)
+	(wire
+		(pts
+			(xy 82.55 132.08) (xy 82.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1602057b-8374-4b2e-8b1a-26af7eb3272e")
+	)
+	(wire
+		(pts
+			(xy 232.41 111.76) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0f3fe9-fb1e-4a68-810b-10264e194196")
+	)
+	(wire
+		(pts
+			(xy 80.01 111.76) (xy 80.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2013bf9f-8fc6-434f-92d4-770b7c2e0737")
+	)
+	(wire
+		(pts
+			(xy 196.85 132.08) (xy 196.85 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a0341c-3f87-46f4-9c77-9691426c08da")
+	)
+	(wire
+		(pts
+			(xy 156.21 111.76) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b4f0c63-7781-4231-81fe-c183f01b758f")
+	)
+	(wire
+		(pts
+			(xy 115.57 111.76) (xy 115.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54099762-8798-48b2-9e0b-e4d6e8cd2377")
+	)
+	(wire
+		(pts
+			(xy 120.65 132.08) (xy 120.65 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "639203b3-4826-40a8-abf2-0730d553cf2e")
+	)
+	(wire
+		(pts
+			(xy 118.11 111.76) (xy 118.11 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b27febf-e124-49fe-9724-82192a9f7117")
+	)
+	(wire
+		(pts
+			(xy 194.31 111.76) (xy 194.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6deee027-b2fd-4fc3-9958-c67596f7e393")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 153.67 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79187734-6105-4aba-a931-ad421390c1b2")
+	)
+	(wire
+		(pts
+			(xy 234.95 132.08) (xy 234.95 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c3e0b5-fe91-4aa2-b3df-3ba59b14a0d5")
+	)
+	(wire
+		(pts
+			(xy 151.13 132.08) (xy 151.13 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ab4c5a-a6cf-4d3d-a5f4-144bfeb68a3d")
+	)
+	(wire
+		(pts
+			(xy 189.23 132.08) (xy 189.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3d1c28-7411-466d-b701-a2ef3a746579")
+	)
+	(wire
+		(pts
+			(xy 227.33 132.08) (xy 227.33 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5863bb7-9aef-4083-9d05-5f2643fa5e11")
+	)
+	(wire
+		(pts
+			(xy 191.77 111.76) (xy 191.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5168c2d-1599-4bbb-931e-5f5579c95291")
+	)
+	(wire
+		(pts
+			(xy 36.83 132.08) (xy 36.83 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 125.73) (xy 71.12 128.27)
+			(xy 44.45 132.08) (xy 44.45 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 105.41) (xy 68.58 128.27)
+			(xy 41.91 111.76) (xy 41.91 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1689,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 105.41) (xy 66.04 128.27)
+			(xy 158.75 132.08) (xy 158.75 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4a3257-a332-49db-a25b-dc5b05a3d10f")
+	)
+	(wire
+		(pts
+			(xy 39.37 111.76) (xy 39.37 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1207,8 +1707,168 @@
 		)
 		(uuid "ffa61280-ba39-4172-ab4e-57c9d47afda1")
 	)
+	(label "CH2_Phase_A"
+		(at 80.01 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04364f50-ddd9-4e4b-9170-0f1bf48556cc")
+	)
+	(label "CH4_Phase_B"
+		(at 153.67 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "123ae7e4-d43b-4fd2-8597-b644b8fe66da")
+		(property "Phase B" ""
+			(at 154.94 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "CH6_Phase_B"
+		(at 229.87 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52b88c54-0880-49d3-9c39-6ec5f524bc91")
+		(property "Phase B" ""
+			(at 231.14 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "CH5_Phase_B"
+		(at 191.77 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6afb2a35-0150-4ac6-9dfc-30c85917dd38")
+		(property "Phase B" ""
+			(at 193.04 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "CH3_Phase_A"
+		(at 118.11 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "965cd970-de93-4fc2-aaba-11a06f45857d")
+	)
+	(label "CH4_Phase_A"
+		(at 156.21 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5a54e4f-08f2-46a9-a4d6-fadfdae64527")
+	)
+	(label "CH2_Phase_B"
+		(at 77.47 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c347fadd-4e28-4bdb-ac05-1eafd3ca73e0")
+		(property "Phase B" ""
+			(at 78.74 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "CH6_Phase_A"
+		(at 232.41 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c88e5696-9eaf-45f7-9db1-a620420eec8c")
+	)
+	(label "CH3_Phase_B"
+		(at 115.57 111.76 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2fbd8f2-e040-40f9-90b5-7a304f5e1a46")
+		(property "Phase B" ""
+			(at 116.84 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "CH5_Phase_A"
+		(at 194.31 111.76 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f8b80f45-e208-41ff-b023-38844a5ae327")
+	)
 	(label "CH1_Phase_B"
-		(at 66.04 105.41 270)
+		(at 39.37 111.76 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1218,7 +1878,7 @@
 		)
 		(uuid "f8c4b179-2d4e-45e5-b3f0-0063d8a3dc5c")
 		(property "Phase B" ""
-			(at 67.31 105.41 90)
+			(at 40.64 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1230,7 +1890,7 @@
 		)
 	)
 	(label "CH1_Phase_A"
-		(at 68.58 105.41 270)
+		(at 41.91 111.76 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1239,9 +1899,9 @@
 		)
 		(uuid "f9379238-8306-40f2-9e87-ee94eb72ebe0")
 	)
-	(global_label "CH1_OUT2"
+	(global_label "CH1_OUT1"
 		(shape output)
-		(at 60.96 128.27 90)
+		(at 199.39 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1249,9 +1909,57 @@
 			)
 			(justify left)
 		)
-		(uuid "74b926e6-74eb-4672-a6ed-97a245cec87c")
+		(uuid "19a9c421-9fd5-4ae9-b711-07a960157671")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.96 115.6691 90)
+			(at 199.39 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT2"
+		(shape output)
+		(at 186.69 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ea40fa0-7a20-4cc7-bb41-5b1f8a1e9d74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.69 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT2"
+		(shape output)
+		(at 72.39 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30eed90d-62b8-4c94-b0d9-aeb1a762d050")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 122.0191 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1265,7 +1973,127 @@
 	)
 	(global_label "CH1_OUT1"
 		(shape output)
-		(at 73.66 128.27 90)
+		(at 237.49 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a44b14a-e041-446b-96aa-6cf1f09a1d10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT1"
+		(shape output)
+		(at 161.29 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "417d7d2b-7784-4f6e-bd5c-8bad3c3e6094")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.29 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT1"
+		(shape output)
+		(at 85.09 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5df0de13-ce30-4f9b-abbb-61867052ac18")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT2"
+		(shape input)
+		(at 34.29 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "74b926e6-74eb-4672-a6ed-97a245cec87c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.29 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT2"
+		(shape output)
+		(at 110.49 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdde587d-84a9-4c68-9461-5ab436e12eee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.49 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT1"
+		(shape output)
+		(at 46.99 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1275,7 +2103,79 @@
 		)
 		(uuid "c195cf6c-572d-4caf-8c41-7851575184c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.66 115.6691 90)
+			(at 46.99 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT1"
+		(shape output)
+		(at 123.19 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e91e7d15-803f-4411-b184-6a6d5240d5b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT2"
+		(shape output)
+		(at 148.59 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8ce62ab-581d-4471-9c42-ec2a5e7329b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.59 122.0191 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CH1_OUT2"
+		(shape output)
+		(at 224.79 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fae8d04b-6e5e-491c-8a7b-3be5b30f5099")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.79 122.0191 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1288,8 +2188,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 227.33 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05b63a39-7c12-4328-ab69-9d9f175fadfa")
+		(property "Reference" "#PWR039"
+			(at 227.33 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d105e254-8674-4115-a9d6-bb0307dafad2")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "S6B-PH-SM4-TB_LF__SN_:S6B-PH-SM4-TB")
-		(at 73.66 128.27 270)
+		(at 46.99 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1300,7 +2277,7 @@
 		(fields_autoplaced yes)
 		(uuid "05e19705-9e67-437c-a4e8-9c10fb227e0a")
 		(property "Reference" "J1"
-			(at 77.47 135.8899 90)
+			(at 50.8 142.2399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1311,7 +2288,7 @@
 			)
 		)
 		(property "Value" "CH1_PH_6Pin"
-			(at 77.47 138.4299 90)
+			(at 50.8 144.7799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1322,7 +2299,7 @@
 			)
 		)
 		(property "Footprint" "S6B-PH-SM4TB__SN_:S6B-PH-SM4-TB_LF__SN__3"
-			(at 73.66 128.27 0)
+			(at 46.99 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1334,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" "S6B-PH-SM4-TB"
-			(at 73.66 128.27 0)
+			(at 46.99 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,7 +2323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 128.27 0)
+			(at 46.99 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1385,7 +2362,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 71.12 125.73 0)
+		(at 196.85 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1393,9 +2370,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cba2faae-ebef-4ff8-8cfc-c44ad8f50a9d")
-		(property "Reference" "#PWR06"
-			(at 71.12 129.54 0)
+		(uuid "10bf78ef-ade7-402b-85ac-1ff9122c6f0e")
+		(property "Reference" "#PWR038"
+			(at 196.85 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1406,7 +2383,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 71.12 119.888 90)
+			(at 196.85 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1416,7 +2393,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 125.73 0)
+			(at 196.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1427,7 +2404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 125.73 0)
+			(at 196.85 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1438,7 +2415,699 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 71.12 125.73 0)
+			(at 196.85 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1fc9066-75e3-468c-a9e2-a3735c572398")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S6B-PH-SM4-TB_LF__SN_:S6B-PH-SM4-TB")
+		(at 161.29 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fb4434b-91b5-4d4f-9311-f45d4559b9b3")
+		(property "Reference" "J4"
+			(at 165.1 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH4_PH_6Pin"
+			(at 165.1 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S6B-PH-SM4TB__SN_:S6B-PH-SM4-TB_LF__SN__3"
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S6B-PH-SM4-TB"
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4b776671-adfb-454b-9ee8-6aff63f60fe8")
+		)
+		(pin "6"
+			(uuid "80dcfb4d-f8e1-4559-820c-3cae9a9bf771")
+		)
+		(pin "2"
+			(uuid "b86d93d1-d9f0-4fde-973e-64da42feb836")
+		)
+		(pin "5"
+			(uuid "83fe1171-e06d-4827-9f9c-e468b17953f3")
+		)
+		(pin "1"
+			(uuid "38a1f339-3d2e-4441-ad3d-847dd6e9f552")
+		)
+		(pin "4"
+			(uuid "a7cbc8f3-a379-4d45-b4c1-deff0e04be5b")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 234.95 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58f707f0-0c75-4a70-8164-86d245dc5b9c")
+		(property "Reference" "#PWR040"
+			(at 234.95 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 234.95 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 234.95 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54f5bcf5-f054-4788-97aa-ca645696fdd6")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 82.55 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f83ac60-ed3f-4d86-aa78-3018f091ae7f")
+		(property "Reference" "#PWR015"
+			(at 82.55 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 82.55 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 82.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbf10ed5-9748-4929-9a11-87f6ed51a4a0")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S6B-PH-SM4-TB_LF__SN_:S6B-PH-SM4-TB")
+		(at 123.19 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7492a69e-2b5e-4dbd-9632-123e4d77529f")
+		(property "Reference" "J3"
+			(at 127 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH3_PH_6Pin"
+			(at 127 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S6B-PH-SM4TB__SN_:S6B-PH-SM4-TB_LF__SN__3"
+			(at 123.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S6B-PH-SM4-TB"
+			(at 123.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ed7f6842-1a1e-4967-9bec-c75a97d272e2")
+		)
+		(pin "6"
+			(uuid "0990848c-55ea-4a58-94cf-77be2a4b56f6")
+		)
+		(pin "2"
+			(uuid "ab7dd535-620e-4797-8630-711a10a23b4c")
+		)
+		(pin "5"
+			(uuid "7702e653-4548-4888-bcbd-6cc22b586148")
+		)
+		(pin "1"
+			(uuid "286dd273-9b89-4a25-9745-6c61137a9952")
+		)
+		(pin "4"
+			(uuid "15eb2560-49c5-420b-a600-be065806abfa")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "944ec4a6-a68b-4a72-8fe4-6005cf5d1bd2")
+		(property "Reference" "#PWR012"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aaf7814-52a7-49cc-bc2b-94c44f58ff12")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S6B-PH-SM4-TB_LF__SN_:S6B-PH-SM4-TB")
+		(at 85.09 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6dc7fea-f9e6-4399-a259-9eaaadfbebae")
+		(property "Reference" "J2"
+			(at 88.9 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH2_PH_6Pin"
+			(at 88.9 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S6B-PH-SM4TB__SN_:S6B-PH-SM4-TB_LF__SN__3"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S6B-PH-SM4-TB"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "23a251a6-27c9-4f86-86a8-73a9f8d8c45a")
+		)
+		(pin "6"
+			(uuid "2e703299-16e9-437d-8749-477e08c8e7d6")
+		)
+		(pin "2"
+			(uuid "5e6f0e14-b3cc-40b0-907f-e56e5c6de6c1")
+		)
+		(pin "5"
+			(uuid "351ef05c-8d41-4df3-a2ed-0831d7c809de")
+		)
+		(pin "1"
+			(uuid "502d7652-808d-44d0-9c03-ba12adb96f2c")
+		)
+		(pin "4"
+			(uuid "b8a6fa60-cf9e-4bb9-95c7-f0b2bd88c8f5")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S6B-PH-SM4-TB_LF__SN_:S6B-PH-SM4-TB")
+		(at 199.39 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf90edaf-bf07-4d23-824c-204b39d60eb4")
+		(property "Reference" "J5"
+			(at 203.2 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH5_PH_6Pin"
+			(at 203.2 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S6B-PH-SM4TB__SN_:S6B-PH-SM4-TB_LF__SN__3"
+			(at 199.39 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S6B-PH-SM4-TB"
+			(at 199.39 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7926e1ae-b7d3-401a-86c2-0dc376e4410c")
+		)
+		(pin "6"
+			(uuid "ef182d3a-49ce-4dd8-aa33-64ec756b4ad8")
+		)
+		(pin "2"
+			(uuid "84125b46-73ce-43d0-a782-087698dd0e30")
+		)
+		(pin "5"
+			(uuid "b8c6aff0-7670-432c-b11e-a57b548a9c9e")
+		)
+		(pin "1"
+			(uuid "a979315e-13f4-4120-8f78-2964b2affebf")
+		)
+		(pin "4"
+			(uuid "d5af7d97-b994-426d-9f23-1787737d6b28")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 44.45 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cba2faae-ebef-4ff8-8cfc-c44ad8f50a9d")
+		(property "Reference" "#PWR06"
+			(at 44.45 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 44.45 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1461,8 +3130,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 63.5 125.73 180)
+		(lib_id "power:+3.3V")
+		(at 158.75 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1470,9 +3139,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ec42f44e-010b-4948-8bb7-d3a4260a1de6")
-		(property "Reference" "#PWR09"
-			(at 63.5 119.38 0)
+		(uuid "cbeebd55-9a16-4975-8ca3-51f3e213a1f7")
+		(property "Reference" "#PWR036"
+			(at 158.75 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1482,8 +3151,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 63.5 120.65 90)
+		(property "Value" "+3.3V"
+			(at 158.75 126.238 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1493,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 125.73 0)
+			(at 158.75 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1504,7 +3173,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 125.73 0)
+			(at 158.75 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2958e698-16e1-4055-a870-3089db370a1c")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 189.23 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceecdaf1-04ae-440e-9e9c-4fb74d848f5c")
+		(property "Reference" "#PWR037"
+			(at 189.23 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1515,7 +3261,334 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 125.73 0)
+			(at 189.23 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e4b270c-3c93-453a-a06f-e6ab7f99a70c")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1281de1-d886-43b6-bcb6-783e0e1958e7")
+		(property "Reference" "#PWR018"
+			(at 113.03 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60079841-95e2-4856-acf8-18f1b9ff758f")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S6B-PH-SM4-TB_LF__SN_:S6B-PH-SM4-TB")
+		(at 237.49 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4ae8967-f320-4c1e-ae7b-5a0ae3489f6c")
+		(property "Reference" "J6"
+			(at 241.3 142.2399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CH6_PH_6Pin"
+			(at 241.3 144.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "S6B-PH-SM4TB__SN_:S6B-PH-SM4-TB_LF__SN__3"
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "S6B-PH-SM4-TB"
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f32681b9-e0bc-4224-a786-af9b3ee067e2")
+		)
+		(pin "6"
+			(uuid "a1c57957-f299-4c61-8ffe-00bac4df5446")
+		)
+		(pin "2"
+			(uuid "0634d9fd-0d6f-41b4-9378-3f83d21e1b26")
+		)
+		(pin "5"
+			(uuid "dce7dc78-8e8a-4313-a6d9-2602aafa58cf")
+		)
+		(pin "1"
+			(uuid "2377cfa5-2a26-44cd-a249-31d015c1ed5c")
+		)
+		(pin "4"
+			(uuid "282c8ac6-61a2-492e-a296-1e14d468913f")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e78581fc-6b74-4895-823d-bf510de7cf20")
+		(property "Reference" "#PWR035"
+			(at 151.13 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd1b48a2-a112-4683-afda-0ace0ee561be")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec42f44e-010b-4948-8bb7-d3a4260a1de6")
+		(property "Reference" "#PWR09"
+			(at 36.83 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1532,6 +3605,83 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffc5d809-32fc-4428-94c2-f7693e61309e")
+		(property "Reference" "#PWR034"
+			(at 120.65 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 120.65 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 120.65 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2720aa3b-cda0-42c7-8eba-246d512375ef")
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1579,6 +3729,52 @@
 			(project "rover-mobility-system"
 				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 31.75)
+		(size 43.18 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "754c90c4-90ac-45fa-b0dd-4db0831b5a40")
+		(property "Sheetname" "W5500"
+			(at 154.94 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "W5500.kicad_sch"
+			(at 154.94 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rover-mobility-system"
+				(path "/f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
+					(page "3")
 				)
 			)
 		)

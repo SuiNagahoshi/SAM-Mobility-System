@@ -549,6 +549,46 @@
       {
         "netclass": "Phase_A",
         "pattern": "/CH1_Phase_A"
+      },
+      {
+        "netclass": "Phase_B",
+        "pattern": "/CH2_Phase_B"
+      },
+      {
+        "netclass": "Phase_B",
+        "pattern": "/CH3_Phase_B"
+      },
+      {
+        "netclass": "Phase_B",
+        "pattern": "/CH4_Phase_B"
+      },
+      {
+        "netclass": "Phase_B",
+        "pattern": "/CH5_Phase_B"
+      },
+      {
+        "netclass": "Phase_B",
+        "pattern": "/CH6_Phase_B"
+      },
+      {
+        "netclass": "Phase_A",
+        "pattern": "/CH6_Phase_A"
+      },
+      {
+        "netclass": "Phase_A",
+        "pattern": "/CH5_Phase_A"
+      },
+      {
+        "netclass": "Phase_A",
+        "pattern": "/CH4_Phase_A"
+      },
+      {
+        "netclass": "Phase_A",
+        "pattern": "/CH3_Phase_A"
+      },
+      {
+        "netclass": "Phase_A",
+        "pattern": "/CH2_Phase_A"
       }
     ]
   },
@@ -735,7 +775,7 @@
         "uuid": "f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
       }
     ],
-    "used_designators": "#PWR6,#PWR9,IC2-6,J1",
+    "used_designators": "#PWR6,#PWR9,#PWR12,#PWR15,#PWR18,#PWR34-40,C14,IC2-6,J1-7,U1",
     "variants": []
   },
   "sheets": [
@@ -746,6 +786,10 @@
     [
       "25cecece-076a-42f4-8574-b58ecc3d47c5",
       "H_Bridge"
+    ],
+    [
+      "754c90c4-90ac-45fa-b0dd-4db0831b5a40",
+      "W5500"
     ]
   ],
   "text_variables": {},
