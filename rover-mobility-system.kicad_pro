@@ -551,44 +551,8 @@
         "pattern": "/CH1_Phase_A"
       },
       {
-        "netclass": "Phase_B",
-        "pattern": "/CH2_Phase_B"
-      },
-      {
-        "netclass": "Phase_B",
-        "pattern": "/CH3_Phase_B"
-      },
-      {
-        "netclass": "Phase_B",
-        "pattern": "/CH4_Phase_B"
-      },
-      {
-        "netclass": "Phase_B",
-        "pattern": "/CH5_Phase_B"
-      },
-      {
-        "netclass": "Phase_B",
-        "pattern": "/CH6_Phase_B"
-      },
-      {
-        "netclass": "Phase_A",
-        "pattern": "/CH6_Phase_A"
-      },
-      {
-        "netclass": "Phase_A",
-        "pattern": "/CH5_Phase_A"
-      },
-      {
-        "netclass": "Phase_A",
-        "pattern": "/CH4_Phase_A"
-      },
-      {
-        "netclass": "Phase_A",
-        "pattern": "/CH3_Phase_A"
-      },
-      {
-        "netclass": "Phase_A",
-        "pattern": "/CH2_Phase_A"
+        "netclass": "Default",
+        "pattern": "/W5500/TXP"
       }
     ]
   },
@@ -725,6 +689,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PartNumber",
+          "name": "PartNumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EC",
+          "name": "EC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -775,7 +763,7 @@
         "uuid": "f987c1fc-f898-468b-be5e-1e1dbc6fa4ce"
       }
     ],
-    "used_designators": "#PWR6,#PWR9,#PWR12,#PWR15,#PWR18,#PWR34-40,C14,IC2-6,J1-7,U1",
+    "used_designators": "#PWR6,#PWR9,#PWR41-47,C14-16,IC2-6,J1,R9-17",
     "variants": []
   },
   "sheets": [
