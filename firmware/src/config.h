@@ -60,6 +60,10 @@ constexpr float SERVO_US_PER_DEG =
 constexpr uint32_t SERVO_SWEEP_PERIOD_MS = 6000;
 constexpr uint32_t SERVO_UPDATE_PERIOD_MS = 20;
 constexpr uint32_t SERVO_START_DELAY_MS = 1000;
+// 角度指令のスルーレート。小さいほど反力トルクが弱く、
+// 仮置き台座などが倒れにくい。20deg/s で6秒周期スイープは
+// 実質三角波(振幅±30度)になる。
+constexpr float SERVO_SLEW_DEG_PER_S = 20.0f;
 
 // =====================================================================
 // I2C LCD (PCF8574, 16x2)

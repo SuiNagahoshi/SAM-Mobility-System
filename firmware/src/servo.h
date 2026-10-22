@@ -9,6 +9,7 @@ void servo_init();
 void servo_set_pulse_us(uint16_t pulse_us);
 
 // 起動ディレイ後、±SERVO_SWEEP_DEG をサイン波で往復させる。
+// 角度指令は SERVO_SLEW_DEG_PER_S のスルーリミットで緩やかに追従する。
 // now_ms は to_ms_since_boot(get_absolute_time()) の値。
 void servo_update(uint64_t now_ms);
 

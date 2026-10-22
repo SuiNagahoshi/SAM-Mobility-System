@@ -84,6 +84,8 @@ ENCODER_PPR または GEAR_RATIO を変更する。
 - 停止: IN1=L, IN2=L (STANDBY)
 - duty高止まり + RPMほぼ0が1秒続くとストール停止
 - MG90S: 中心1500us、±30度、約6秒周期で往復
+- サーボ角度指令は20deg/sのスルーリミットで緩やかに追従し、
+  原点回帰・スイープ時の反力トルクで台座が倒れにくい
 - 起動時はサーボ中心で待機し、1秒後にスイープ開始
 - USB CDCに約10Hzでテレメトリ出力
 - I2C LCDに目標/実測RPM、duty、サーボ角度を500ms周期で表示
@@ -97,6 +99,7 @@ SPEED_SWEEP_PERIOD_MS   : 20000
 SERVO_MIN_US/MAX_US     : 500 / 2500
 SERVO_SWEEP_DEG         : 30
 SERVO_SWEEP_PERIOD_MS   : 6000
+SERVO_SLEW_DEG_PER_S    : 20 (小さいほど軟らかい)
 
 【ビルド】
 cmake -S . -B build
