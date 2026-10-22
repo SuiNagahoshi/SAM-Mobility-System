@@ -1,0 +1,104 @@
+Raspberry Pi Pico 2 (RP2350) ピン割り当て
+==========================================
+
+【Pico 2 側】
+信号                Picoピン   GPIO   備考
+------------------  --------  -----  ------------------------------
+エンコーダー A相     GP20      20     CH1_Phase_A / 内部プルアップ
+エンコーダー B相     GP21      21     CH1_Phase_B / 内部プルアップ
+モーター IN1         GP6       6      CH1_IN1 (BD64950 IC1 pin3)
+モーター IN2         GP7       7      CH1_IN2 (BD64950 IC1 pin2)
+MG90S 信号           GP2       2      PWM 50Hz / 500-2500us
+MG90S V+             VBUS      pin40  USB 5V
+MG90S GND            GND       pin38  共通GND
+エンコーダー電源     3V3       36     J1 pin2 (+3.3V)
+LCD SDA             GP4       4      PCF8574 SDA (I2C0)
+LCD SCL             GP5       5      PCF8574 SCL (I2C0)
+LCD VCC             3V3       36     PCF8574/1602 LCD (推奨)
+LCD GND             GND       -      共通GND
+ステータスLED        GP25      25     Pico 2内蔵LED
+
+予約ピン:
+  GP8-15  : SPI1用
+  GP16-19 : SPI0 (W5500) 用
+  GP23/24 : 特殊ピン
+  GP26-29 : ADC用
+
+【CH1コネクタ J1 (CH1_PH_6Pin)】
+pin1 : CH1_OUT1   (モーター出力1)
+pin2 : +3.3V      (エンコーダー電源)
+pin3 : CH1_Phase_A
+pin4 : CH1_Phase_B
+pin5 : GND
+pin6 : CH1_OUT2   (モーター出力2)
+
+【BD64950 CH1 (IC1)】
+pin2 : IN2  <- Pico GP7
+pin3 : IN1  <- Pico GP6
+pin4 : VREF (基板側で固定)
+pin7 : RNF  (0.1Ω、基板側で固定)
+
+VREFはR7=10kとR8=10k or 15kで固定:
+  R8=10k -> VREF=1.65V -> 電流制限 = 1.65 / (10 * 0.1) = 約1.65A
+  R8=15k -> VREF=1.98V -> 電流制限 = 1.98 / (10 * 0.1) = 約1.98A
+ファームウェアから電流制限値は変更しない。
+
+【I2C LCD (PCF8574 + 16x2)】
+- SDA=GP4、SCL=GP5、VCC=3V3、GND=共通GND。
+- アドレスは 0x27 または 0x3F を自動検出する。
+- I2C速度は100kHz。LCD更新は500ms周期。
+- 表示内容:
+    1行目: SV:<サーボ角度> <パルス幅>us
+    2行目: DC T<目標RPM> A<実測RPM> <duty%>
+    ストール時: 2行目 STALL A<実測RPM> D<duty%>
+- PicoのGPIOは5V非耐圧。LCDバックパックは3V3給電を推奨。
+  5V給電する場合はSDA/SCLをレベル変換し、5VプルアップをPicoへ
+  接続しないこと。PCF8574モジュールのプルアップが5V側にある場合は
+  3V3側へ変更するか、プルアップを外してPico内部プルアップを使う。
+- LCDが3V3で暗い場合は、LCD本体のみ5V給電し、I2C部を3V3で
+  動かす改造、またはレベルシフタを使用する。
+
+【MG90S 給電】
+- V+ を Pico 2 の VBUS (pin40)、GND を Pico GND に接続する。
+- VBUS-GND 間に 470uF 電解 + 0.1uF セラミックをサーボ近くに追加する。
+- VBUS からサーボV+へ 1A 程度のポリスイッチを入れると安全。
+- 5V 2A のUSBアダプタ、または外部給電USBハブを推奨。
+- PCのUSB2.0ポート(500mA)直結は、サーボのストール時にPicoがリセットする
+  可能性がある。無負荷でVBUS電圧が4.75V以上を保つか確認すること。
+- Picoの3V3からサーボへ給電しないこと。
+- 12Vモーター電源のGNDとPico GNDは共通にする。
+- USB接続と外部5Vの同時給電はしない。
+
+【エンコーダー仕様】
+JGB520想定:
+  11 PPR x 4逓倍 x ギア比56 = 2464 カウント / 出力軸1回転
+実機でRPMが合わない場合は src/config.h の
+ENCODER_PPR または GEAR_RATIO を変更する。
+
+【制御仕様】
+- 出力軸 30-60RPM を約20秒周期のサイン波で自動往復
+- 50ms周期でエンコーダーRPMを計算しPI制御
+- モーターPWM: 20kHz / GP6-GP7 (slice 3)
+- 前進: IN1=PWM, IN2=L
+- 後進: IN1=L, IN2=PWM
+- 停止: IN1=L, IN2=L (STANDBY)
+- duty高止まり + RPMほぼ0が1秒続くとストール停止
+- MG90S: 中心1500us、±30度、約6秒周期で往復
+- 起動時はサーボ中心で待機し、1秒後にスイープ開始
+- USB CDCに約10Hzでテレメトリ出力
+- I2C LCDに目標/実測RPM、duty、サーボ角度を500ms周期で表示
+
+【主な設定値 (src/config.h)】
+ENCODER_DIR_SIGN        : エンコーダー方向 (逆なら -1)
+MOTOR_DIR_SIGN          : モーター方向 (逆なら -1)
+KP / KI                 : 速度PIゲイン
+TARGET_RPM_MIN/MAX      : 30 / 60
+SPEED_SWEEP_PERIOD_MS   : 20000
+SERVO_MIN_US/MAX_US     : 500 / 2500
+SERVO_SWEEP_DEG         : 30
+SERVO_SWEEP_PERIOD_MS   : 6000
+
+【ビルド】
+cmake -S . -B build
+cmake --build build -j
+生成物: build/firmware.uf2
